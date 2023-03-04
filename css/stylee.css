@@ -1,0 +1,28 @@
+.aboutContainer{
+background-image: url(../images/mainpick.png);
+    height: 60vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutWrapper{
+    display: flex;
+    gap: 20px;
+}
+
+.aboutWrapper > div{
+    width: 30%;
+}
+
+.aboutProductContainer{
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+
+.aboutProductContainer div{
+border-color: #0f0f0f;
+padding: 10px 20px 10px 20p;
+}

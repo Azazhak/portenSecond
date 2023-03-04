@@ -1,0 +1,417 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    background-color: #0F0F0F;
+    height: 80px;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.wrapper{
+    margin: 0 auto;
+    width: 70%;
+}
+
+.headerFlexContainer{
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    align-items: center;
+}
+
+.headerMenu{
+    gap: 30px;
+ align-items: center;
+    display: flex;
+}
+
+.headerMenu a{
+    text-decoration: none;
+    color: #969696;
+    font-weight: 400;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.headerMenu a:first-child{
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.mainPage{
+    background-image: url(../images/mainpage.png);
+    background-repeat: no-repeat;
+    height:90vh;
+    background-size: cover;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.mainPageContainer{
+    height: 90vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.mainPageContainerChild{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    align-items: center;
+    gap: 40px;
+}
+.logoBox{
+    border: 4px solid #FFFFFF;
+    width: 320px;
+    height: 320px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.logoBox p{
+    font-weight: 400;
+    font-size: 22px;
+    color: #FFFFFF;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.line{
+    width: 60%;
+    height: 3px;
+    background-color: #FFFFFF;
+}
+
+.mainPageContainerChild div:not(:first-child){
+font-weight: 400;
+    font-size: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    line-height: 25px;
+}
+
+.seasonContainer{
+    display: flex;
+    height: 70vh;
+}
+
+.seasonFirstContainer{
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    color: #FFFFFF;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Playfair Display', serif;
+}
+
+.seasonImg{
+    background-color: #191B1C;
+    padding:55px 20px 55px 20px;
+}
+
+.seasonImg img{
+    width: 170px;
+}
+
+.seazonImagesContainer{
+display: flex;
+gap: 30px;
+}
+
+.seasonImagesSingle{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.hrSeason{
+    background-color: #FFFFFF;
+    width: 150px;
+    height: 2px;
+}
+
+.seasonSecondContainer{
+    background-image: url(../images/man.png);
+    background-repeat: no-repeat;
+    width: 45%;
+    background-size: cover;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+}
+
+.seasonSecondContent{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+.seasonWrapper{
+height: 75vh;
+display: flex;
+align-items: flex-end;
+}
+
+.btn{
+    text-align: center;
+    cursor: pointer;
+    width: 150px;
+    border: 1px solid white;
+    text-transform: uppercase;
+    padding: 10px 20px 10px 20px;
+    background: none;
+    color: #FFFFFF;
+font-family: 'PT Sans', sans-serif;
+}
+
+.seasonSecondContent h1{
+    font-family: 'Playfair Display', serif;
+}
+
+.collectionContainer{
+    display: flex;
+    height: 70vh;
+}
+
+.collectiionCostume{
+    width: 45%;
+    background-image: url(../images/Rectangle\ 9.png);
+    background-size: cover;
+}
+
+.collectionContetnt{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    text-align: center;
+}
+
+.collectionWrapper{
+width: 55%;
+color: #FFFFFF;
+background-color: black;
+display: flex;
+justify-content: center;
+}
+
+.btnMain{
+    text-align: center;
+        cursor: pointer;
+        width: 200px;
+        border: 1px solid white;
+        text-transform: uppercase;
+        padding: 10px 20px 10px 20px;
+        background: none;
+        color: #FFFFFF;
+        font-family: 'PT Sans', sans-serif;
+}
+
+.collectionContetnt h2{
+    font-family: 'Playfair Display', serif;
+}
+
+.collectionContetnt p{
+    font-family: 'PT Sans', sans-serif;
+    line-height: 18px;
+}
+
+
+.watchContainer{
+    background-color: #000000;
+    width: 100%;
+    height: auto;
+    color: white;
+    text-align: center;
+    align-items: center;
+}
+
+.watchPick {
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 55px;
+}
+
+.mainContainer{
+    margin-left: 18%;
+    padding-top: 35px;
+}
+
+.seazonImagesContainerMain{
+    display: flex;
+    gap: 30px;
+    padding-bottom: 35px;
+}
+
+.mainSeason{
+    background-color: #FFFFFF;
+        width: 150px;
+        height: 1px;
+        margin-left: 45%;
+        margin-top: 30px;
+}
+
+.brendBlock{
+    background-color: #0F0F0F;
+    text-align: center;
+    height: 362px;
+}
+
+.brendBlock{
+    padding-top: 50px;
+}
+
+.hrSeasons{
+    border-bottom: 2px solid white;
+    width: 150px;
+    margin-left: 45%;
+    padding-top: 30px;
+}
+
+.logo {
+    padding: 45px 0px 0 0;
+}
+
+.lastBlock{
+    background-image: url(../images/mainpick.png);
+    background-repeat: no-repeat;
+    height: 56vh;
+    display: flex;
+}
+
+.feedback1{
+    display: flex;
+    width: 25%;
+    display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 55px;
+margin: 42px 35px 0 200px;
+}
+
+.feedback1 p{
+    text-align: start;
+}
+
+.mainBtn{
+    background: #0F0F0F;
+    height: 41px;
+    display: flex;
+    align-items: center;
+    padding: 10px 10px;
+    color: white;
+    cursor: pointer;
+}
+
+
+
+.feedback3{
+display: flex;
+width: 25%;
+flex-direction: column;
+justify-content: center;
+gap: 18px;
+ margin: 55px;
+}
+
+
+.footer{
+height: 50px;
+ background: black;
+color: white;
+}
+
+.footer span{
+    padding-top: 10px;
+}
+span{
+    padding-left: 10%;
+}
+
+.footerSpan{
+    padding-left: 60%;
+}
+
+.MainSeason{
+ background-color: #FFFFFF;
+ width: 145px;
+height: 1px;
+margin-left: 83%;
+}
+
+.emailpick{
+    width: 200px;
+    height: 42px;
+    background-color: #FFFFFF66;
+}
+
+.emailBtn{
+    background: #0F0F0F;
+        height: 42px;
+        color: white;
+        width: 140px;
+        cursor: pointer;
+        text-transform: uppercase;
+}
+
+.inputEmail{
+width: 210px;
+height: 42px;
+color: black;
+}
+
+.feedback3 p{
+    align-items: left;
+}
+
+.feedback2 {
+    padding-top: 114px;
+} 
+
+.pick {
+    display: flex;
+    gap: 13px;
+}
+
+.list{
+padding-bottom: 56px;
+text-align: start;
+font-family: 'Playfair Display', serif;
+text-transform: uppercase;
+}
+
+.lastList{
+    text-transform: uppercase;
+    text-align: start;
+    padding-bottom: 30px;
+    font-family: 'Playfair Display', serif;
+}
+
+.firstList{
+    text-transform: uppercase;
+    text-align: start;
+    font-family: 'Playfair Display', serif;
+}
+
+.menuIcon {
+    display: none;
+}
+
+
+
